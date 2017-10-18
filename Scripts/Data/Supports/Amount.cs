@@ -81,6 +81,31 @@ namespace Utility.Data.Supports {
 		private readonly Dictionary<int, AmountModifiedEventHandler> moreThanEvents = new Dictionary<int, AmountModifiedEventHandler>();
 		#endregion
 
+		#region constructors		
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Amount"/> class.
+		/// </summary>
+		/// <param name="minimum">The minimum.</param>
+		/// <param name="maximum">The maximum.</param>
+		public Amount(float minimum, float maximum) {
+			this.minimum = minimum;
+			this.maximum = maximum;
+			value = maximum;
+		}
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Amount"/> class.
+		/// </summary>
+		/// <param name="minimum">The minimum.</param>
+		/// <param name="maximum">The maximum.</param>
+		/// <param name="value">The value.</param>
+		public Amount(float minimum, float maximum, float value) {
+			this.minimum = minimum;
+			this.maximum = maximum;
+			this.value = value;
+		}
+		#endregion
+
 		#region public methods		
 		/// <summary>
 		/// Registers a callback to call when the value is less than the given threshold.
