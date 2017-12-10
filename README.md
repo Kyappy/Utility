@@ -12,22 +12,25 @@ This repository contains utility scripts for Unity.
 * [Versioning](#versioning)
 * [Creators](#creators)
 * [Copyright and license](#copyright-and-license)
+* [Thanks](#thanks)
 
 ## Quick start
 
 To get the utility module you can:
 
-* Clone the [repository](https://github.com/Kyappy/utility) `git clone https://github.com/Kyappy/utility.git`
+* Clone the [repository](https://github.com/Kyappy/utility-module) `git clone https://github.com/Kyappy/utility-module.git`
 
 ## Feature list
 
 * Command
 * Data
+* Components and managers management
 * Pooling
+* Json data management
 
 ## Bugs and feature requests
 
-If you have any request or you found an issue, please report it to the [Github issue tracker](https://github.com/Kyappy/motion/issues)
+If you have any request or you found an issue, please report it to the [Github issue tracker](https://github.com/Kyappy/utility-module/issues)
 
 ## Tools
 
@@ -53,3 +56,7 @@ This module is proposed by: [Marc Gavanier](https://github.com/Kyappy/), and dev
 ## Copyright and license
 
 Code and documentation copyright 2015-2017 [Marc Gavanier](https://github.com/Kyappy/) released under the [MIT License](http://opensource.org/licenses/MIT).
+
+## Thanks
+
+The Simple Json parser utility is highly inspired form Markus Göbel `SimpleJSON` project. See the original project [here](http://wiki.unity3d.com/index.php/SimpleJSON)
