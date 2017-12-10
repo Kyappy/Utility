@@ -1,4 +1,4 @@
-﻿namespace Utility.Data.Events {
+﻿namespace UtilityModule.Data.Events {
 	/// <summary>
 	/// Event to handles amount modification.
 	/// </summary>

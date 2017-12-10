@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Utility.Pooling.Contracts {
+namespace UtilityModule.Pooling.Contracts {
 	/// <summary>
 	/// Pool base abstract class.
 	/// </summary>

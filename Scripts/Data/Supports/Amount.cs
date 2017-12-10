@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Utility.Data.Events;
+using UtilityModule.Data.Events;
 
-namespace Utility.Data.Supports {
+namespace UtilityModule.Data.Supports {
 	/// <summary>
 	/// Amount class.
 	/// </summary>

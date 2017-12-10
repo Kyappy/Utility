@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using Utility.Command.Contracts;
-using Utility.Data.Supports;
+using UtilityModule.Command.Contracts;
+using UtilityModule.Data.Supports;
 
-namespace Utility.Data.Contracts {
+namespace UtilityModule.Data.Contracts {
 	/// <summary>
 	/// Modify amount command base class.
 	/// </summary>

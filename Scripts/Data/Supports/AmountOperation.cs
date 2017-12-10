@@ -1,4 +1,4 @@
-﻿namespace Utility.Data.Supports {
+﻿namespace UtilityModule.Data.Supports {
 	/// <summary>
 	/// Amount operation types enumeration
 	/// </summary>

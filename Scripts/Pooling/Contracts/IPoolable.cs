@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Utility.Pooling.Contracts {
+namespace UtilityModule.Pooling.Contracts {
 	/// <summary>
 	/// Poolable interface.
 	/// </summary>

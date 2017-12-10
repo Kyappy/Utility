@@ -1,4 +1,4 @@
-﻿namespace Utility.Command.Contracts {
+﻿namespace UtilityModule.Command.Contracts {
 	/// <summary>
 	/// Command interface.
 	/// </summary>
